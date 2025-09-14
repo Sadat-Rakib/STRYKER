@@ -5,14 +5,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const drinks = [
   {
-    name: 'Midnight Mocha',
-    shortName: 'MOCHA',
-    subtext: 'Bold. Creamy. Irresistibly dark.',
-    description: 'Indulge in the ultimate chocolate experience — rich, creamy, and blended to perfection. Your favorite drink, now darker, smoother, and more irresistible than ever.',
-    image: './images/choco.png',
+    name: 'MangoOrange',
+    shortName: 'MO',
+    subtext: 'Tropical. Sugar Free. Hydrating.',
+    description: 'STRYKER Mango Orange, a German-crafted electrolyte drink, is tailored for Bangladesh’s heat. This vibrant mango-orange blend delivers high-performance hydration with essential electrolytes, sugar-free.',
+    image: './images/mangoorange.png',
     imageWidth: '750px',
   imageHeight: 'auto',
-    gradient: 'linear-gradient(to bottom, #4B2E1D 79%, #6B3F27 50%)',
+    gradient: 'linear-gradient(to bottom,rgb(184, 173, 19) 79%,rgb(48, 70, 133) 50%)',
     backgrounds: [
       { src: './images/c1.png', width: '600px', height: '500px', top: '-100px', left: '-100px' },
       { src: './images/c2.png', width: '600px', height: '500px', top: '-14%', left: '62%' },
@@ -24,14 +24,14 @@ const drinks = [
     ]
   },
   {
-    name: 'Dragon Splash',
-    shortName: 'DRAGON',
-    subtext: 'Exotic. Fruity. Fierce.',
-    description: 'A vibrant blend of dragon fruit with a tropical twist, bursting with bold flavor. Your favorite drink, now darker, smoother, and more irresistible than ever.',
-    image: './images/dragon.png',
+    name: 'BlueRaspberry',
+    shortName: 'BR',
+    subtext: 'Refreshing. Focused.',
+    description: 'STRYKER Blue Raspberry, German-engineered, offers bold hydration for Bangladesh. Sugar-free with key electrolytes, it boosts focus and endurance in humid conditions.',
+    image: './images/BLUE_RASPBERRY.png',
     imageWidth: '530px',
     imageHeight: 'auto',
-    gradient: 'linear-gradient(to bottom, #3C0A2A 79%, #4A0D3E 30%)',
+    gradient: 'linear-gradient(to bottom,rgb(8, 14, 97) 79%,rgb(16, 39, 102) 30%)',
     backgrounds: [
       { src: './images/d1.png', width: '300px', height: '300px', top: '-80px', left: '10%' },
       { src: './images/d2.png', width: '300px', height: '300px', top: '-8%', left: '70%' },
@@ -43,34 +43,14 @@ const drinks = [
     ]
   },
   {
-    name: 'Pineapple Zest',
-    shortName: 'ZESTED',
-    subtext: 'Bright. Juicy. Refreshing.',
-    description: 'Zesty pineapple flavor that lifts your mood and refreshes your soul. Your favorite drink, now darker, smoother, and more irresistible than ever.',
-    image: './images/pine.png',
+    name: 'StrawberryWatermelon',
+    shortName: 'SW',
+    subtext: 'Fruity. Crisp. Energizing.',
+    description: 'STRYKER Strawberry Watermelon, German-developed, provides a refreshing sugar-free hydration boost. Packed with electrolytes, it’s ideal for fitness and daily use.',
+    image: './images/STRAWBERRYWATERMELON.png',
     imageWidth: '530px',
     imageHeight: 'auto',
-    gradient: 'linear-gradient(to bottom, #EFBC10 79%, #fcd23c 30%)',
-    backgrounds: [
-      { src: './images/p1.png', width: '300px', height: '300px', top: '10%', left: '8%' },
-      { src: './images/p2.png', width: '300px', height: '300px', top: '0%', left: '80%' },
-      { src: './images/p3.png', width: '300px', height: '300px', top: '18%', left: '40%' },
-
-      { src: './images/p1.png', width: '300px', height: '300px', top: '70%', left: '70%' },
-      { src: './images/p2.png', width: '300px', height: '300px', top: '60%', left: '30%' },
-      { src: './images/p3.png', width: '300px', height: '300px', top: '70%', left: '0' },
-
-    ]
-  },
-  {
-    name: 'Strawberry Breeze',
-    shortName: 'BREEZE',
-    subtext: 'Sweet. Creamy. Cool.',
-    description: 'A creamy strawberry blend made to chill your summer cravings. Your favorite drink, now darker, smoother, and more irresistible than ever.',
-    image: './images/strawberry.png',
-    imageWidth: '530px',
-    imageHeight: 'auto',
-    gradient: 'linear-gradient(to bottom, #C0030E 79%, #D92A34 30%)',
+    gradient: 'linear-gradient(to bottom, #C0030E 79%,rgb(39, 17, 121) 30%)',
     backgrounds: [
       { src: './images/s1.png', width: '300px', height: '300px', top: '50px', left: '0' },
       { src: './images/s2.png', width: '300px', height: '300px', top: '6%', left: '75%' },

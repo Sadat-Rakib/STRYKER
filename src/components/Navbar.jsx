@@ -4,11 +4,12 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo">STARBUCKS</div>
+      <div className="logo">STRYKER</div>
       <ul className="nav-links">
         <li>Menu</li>
-        <li>Rewards</li>
-        <li>Gift Cards</li>
+        <li>T-Shirt</li>
+        <li>Nutrition Facts</li>
+        <li>Contact</li>
       </ul>
       <button className="signin-btn">Sign In</button>
     </div>
